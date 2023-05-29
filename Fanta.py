@@ -1,1 +1,3 @@
-print("hello world")
+from foo import method_name
+
+method_name()
