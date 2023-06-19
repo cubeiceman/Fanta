@@ -53,3 +53,4 @@ class Menu_Scene(Scene):
         for button in list(self.button_dict.values()):
             button.draw(self.surface)
         self.surface.blit(self.image, (0, 0))
+        
