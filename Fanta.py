@@ -83,14 +83,14 @@ class Board:
     def draw(self):
         square_width = self.width/8
         square_height = self.height/8
-        square_color = [[0,1,0,1,0,1,0,1],
-                        [1,0,1,0,1,0,1,0],
+        square_color = [[1,0,1,0,1,0,1,0],
                         [0,1,0,1,0,1,0,1],
                         [1,0,1,0,1,0,1,0],
                         [0,1,0,1,0,1,0,1],
                         [1,0,1,0,1,0,1,0],
                         [0,1,0,1,0,1,0,1],
-                        [1,0,1,0,1,0,1,0]]
+                        [1,0,1,0,1,0,1,0],
+                        [0,1,0,1,0,1,0,1]]
         for row in range(8):
             for col in range(8):
                 top = row*self.square_height
